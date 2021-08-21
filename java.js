@@ -28,6 +28,7 @@ momoryEight.addEventListener('click', function () {
     bestPrice.innerText = "1299";
     etramomoey.innerText = "0";
     updatetotal();
+    upatelast();
 
 
 });
@@ -35,6 +36,7 @@ momorSixten.addEventListener('click', function () {
     bestPrice.innerText = "1299";
     etramomoey.innerText = "180"
     updatetotal();
+    upatelast();
 
 
 
@@ -46,6 +48,7 @@ storageFrist.addEventListener('click', function () {
     bestPrice.innerText = "1299";
     extraStorge.innerText = "0";
     updatetotal();
+    upatelast();
 
 
 
@@ -56,6 +59,7 @@ storageSecond.addEventListener('click', function () {
     bestPrice.innerText = "1299";
     extraStorge.innerText = "100";
     updatetotal();
+    upatelast();
 
 
 
@@ -65,6 +69,7 @@ storageThird.addEventListener('click', function () {
     bestPrice.innerText = "1299";
     extraStorge.innerText = "180";
     updatetotal();
+    upatelast();
 
 
 });
@@ -77,6 +82,7 @@ deliveryFrist.addEventListener('click', function () {
     bestPrice.innerText = "1299";
     deliveryCharge.innerText = "0"
     updatetotal();
+    upatelast();
 
 
 });
@@ -85,6 +91,7 @@ deliverySecond.addEventListener('click', function () {
     bestPrice.innerText = "1299";
     deliveryCharge.innerText = "20"
     updatetotal();
+    upatelast();
 
 });
 
@@ -101,6 +108,23 @@ function updatetotal() {
 
 
 };
+const lastTotal = document.getElementById('sub-total');
+
+
+function upatelast() {
+
+    const bestPriseText = Number(bestPrice.innerText);
+    const etraMomoeyText = Number(etramomoey.innerText);
+    const extraStorgeText = Number(extraStorge.innerText);
+    const deliveryChargerText = Number(deliveryCharge.innerText);
+    const totolLast = bestPriseText + etraMomoeyText + extraStorgeText + deliveryChargerText;
+    lastTotal.innerText = totolLast
+
+
+
+
+
+}
 
 
 
