@@ -1,3 +1,18 @@
 
+/* only button css */
 
+.input-btn{
+    border: 1px solid gray;
+}
+.button-apply{
+    color: white;
+    border: 1px solid tomato;
+    background-color: rgb(206, 44, 16);
+    padding: 0 5px;
+    border-radius: 2px;
+}
+/*  hr line  */
+.hr-line{border: 2px solid gray;
+    border-radius: 5px;
 
+}
