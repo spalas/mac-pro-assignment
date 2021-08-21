@@ -102,6 +102,24 @@ function updatetotal() {
 
 };
 
+document.getElementById('Apply-btn').addEventListener('click', function () {
+    const emailField = document.getElementById('stevaKaku');
+    const stveTeem = emailField.value;
+
+    if (tveTeem == stevekaku) {
+        console.log('geert')
+
+    }
+
+
+})
+
+
+
+
+
+
+
 
 
 
