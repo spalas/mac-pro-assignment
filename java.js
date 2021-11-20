@@ -124,7 +124,21 @@ function upatelast() {
 
 
 
-}
+};
+
+//  last part  --*-------
+
+document.getElementById('Apply-btn').addEventListener('click', function () {
+
+    document.getElementById('sub-total').style.display = 'totolLast/20';
+
+});
+document.getElementById('steve-kaku').addEventListener('keyup', function (event) {
+    if (event.target.value == 'stevekaku') {
+        document.getElementById('Apply-btn').removeAttribute('disabled');
+
+    }
+});
 
 
 
